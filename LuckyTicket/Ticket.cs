@@ -19,7 +19,7 @@ namespace LuckyTicket
 
         public static void getLuckyTicket()
         {
-            Console.WriteLine("Enter a ticket number:");
+            Console.WriteLine("Enter a ticket number to check it or '0' to exit from the program:");
             string ticket = Console.ReadLine();
             int ticketLength = ticket.Length;
             if (ticket == "0")
